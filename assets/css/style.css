@@ -27,3 +27,13 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
+/*For testing layout only, to be removed later*/
+.container, .row {
+    border: 2px solid red;
+}
+
+.col-12 {
+    background-color: yellow;
+    border: 2px solid blue;
+}
