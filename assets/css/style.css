@@ -49,6 +49,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* Carousel */
+.image-width {
+    width: 280px;
+}
+
 /*Navbar Styles*/
 #navbar {
     background-color: var(--background-color-dark);
