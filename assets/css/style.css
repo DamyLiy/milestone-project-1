@@ -64,7 +64,7 @@ h1, h2, h3 {
 }
 
 /*Header Styles*/
-#header .lead {
+#top .lead {
     font-family: var(--secondary-font);
 }
 
