@@ -84,6 +84,30 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+/*Footer style*/
+.main-footer {
+    background-image: var(--gradient-background);
+}
+
+.copyright {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.social i {
+    font-size: 160%;
+    padding: 5%;
+    color: var(--secondary-color);
+}
+
 /* Media query for screens larger than 1200px */
 @media screen and (min-width: 1200px) {
     .large-screen-text {
