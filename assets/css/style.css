@@ -67,15 +67,22 @@ h1, h2, h3 {
 #header .lead {
     font-family: var(--secondary-font);
 }
-/*For testing layout only, to be removed later
-.container, .row {
-    border: 2px solid rgb(255, 255, 255);
+
+/*Buy Now style*/
+.buy-now {
+    text-align: center;
+    background-color: var(--background-color);
+    margin-top: 10px;
 }
 
-.col-12{
-    background-color: yellow;
-    border: 2px solid blue;
-}*/
+.buy-now a {
+    text-decoration: none;
+    font-size:xx-large;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /* Media query for screens larger than 1200px */
 @media screen and (min-width: 1200px) {
