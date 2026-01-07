@@ -9,6 +9,7 @@
     
     /*Colors for no Background*/
     --primary-color: #122b18; /*Celtic Green used for main font color*/
+    --primary-color-light: #368047; /*Lighter green for subheadings*/
 
     /*Colors for with Background*/
     --secondary-color: #F8F8F8; /*Alabaster color to be used for Fonts*/
@@ -24,9 +25,28 @@ body {
     color: var(--primary-color);
 }
 
+.sub-heading-color {
+    color: var(--primary-color-light);
+}
+
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.section { /*Heading margin styles for top and bottom spacing*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-margin-paragraph { /* Paragraph margin styles for top and bottom spacing*/
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.small-screen-text{
+    text-align: center;
 }
 
 /*Navbar Styles*/
@@ -37,6 +57,11 @@ h1, h2, h3 {
 #navbar .logo {
     width: 150px;
 }
+
+/*Header Styles*/
+#header .lead {
+    font-family: var(--secondary-font);
+}
 /*For testing layout only, to be removed later
 .container, .row {
     border: 2px solid rgb(255, 255, 255);
@@ -46,3 +71,10 @@ h1, h2, h3 {
     background-color: yellow;
     border: 2px solid blue;
 }*/
+
+/* Media query for screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+    .large-screen-text {
+        text-align: left;
+    }
+}
