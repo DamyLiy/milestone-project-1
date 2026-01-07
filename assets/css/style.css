@@ -28,9 +28,17 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
+/*Navbar Styles*/
+#navbar {
+    background-color: var(--background-color);
+}
+
+#navbar .logo {
+    width: 150px;
+}
 /*For testing layout only, to be removed later*/
 .container, .row {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .col-12{
