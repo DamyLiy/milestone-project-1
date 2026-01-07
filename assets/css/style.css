@@ -84,6 +84,21 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+/*Basics Page*/
+.jump {
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.jump li{
+    font-size: 100%;
+    padding: 5%;
+    color: var(--primary-color)
+}
+
 /*Footer style*/
 .main-footer {
     background-image: var(--gradient-background);
@@ -113,4 +128,5 @@ h1, h2, h3 {
     .large-screen-text {
         text-align: left;
     }
+
 }
