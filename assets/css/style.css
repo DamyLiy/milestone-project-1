@@ -131,3 +131,10 @@ h1, h2, h3 {
     }
 
 }
+
+/*Media query: desktops and larger (992px and up)*/
+@media screen and (min-width:992px) {
+    .desktop-screen-text {
+        text-align: left;
+    }
+}
