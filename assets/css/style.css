@@ -91,13 +91,22 @@ h1, h2, h3 {
     padding: 20px 0;
     display:flex;
     justify-content: space-evenly;
-    list-style-type: none;
+    list-style-type:none; /*Remove bullet points*/
+    
 }
 
-.jump li{
-    font-size: 100%;
-    padding: 5%;
-    color: var(--primary-color)
+.jump a{
+    text-decoration: none;
+    font-size:large;
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Navigation arrows*/
+.arrow-up {
+    color: var(--primary-color);
 }
 
 /*Footer style*/
