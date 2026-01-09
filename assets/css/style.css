@@ -49,6 +49,34 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/*Background color set up for all pages*/
+.background-main {
+    background: var(--background-color-dark);
+    color: var(--secondary-color);
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.background-main h3 {
+    color: var(--secondary-color);
+}
+
+.arrow-background a {
+    color:var(--secondary-color)
+}
+
+/*Video embed for shorts*/
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 320px;
+    height: 570px;
+}
+
 /* Carousel */
 .image-width {
     width: 280px;
@@ -85,7 +113,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-/*Basics Page*/
+/*In page navigation pannel (used in Basics, Events, Heroes)*/
 .jump {
     text-align: center;
     padding: 20px 0;
@@ -104,14 +132,14 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-/*Navigation arrows*/
+/*In page navigation arrows (used in Basics, Events, Heroes)*/
 .arrow-up {
     color: var(--primary-color);
 }
 
 /*Footer style*/
 .main-footer {
-    background-image: var(--gradient-background);
+    background-color: var(--background-color);
 }
 
 .copyright {
