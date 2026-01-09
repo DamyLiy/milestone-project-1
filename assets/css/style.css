@@ -102,6 +102,8 @@ h1, h2, h3 {
     text-align: center;
     background-color: var(--background-color);
     margin-top: 10px;
+    border-radius: 15px;
+    border: 3px solid var(--secondary-color);
 }
 
 .buy-now a {
@@ -123,10 +125,17 @@ h1, h2, h3 {
     
 }
 
+.jump li {
+    background-color: var(--background-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 2px solid var(--secondary-color);
+}
+
 .jump a{
     text-decoration: none;
-    font-size:large;
-    color: var(--primary-color);
+    font-size:medium;
+    color: var(--secondary-color);
     font-family: var(--secondary-font);
     font-weight: bold;
     text-transform: uppercase;
@@ -140,6 +149,8 @@ h1, h2, h3 {
 /*Footer style*/
 .main-footer {
     background-color: var(--background-color);
+    /*Only top corners are round*/
+    border-radius: 15px 15px 0 0;
 }
 
 .copyright {
