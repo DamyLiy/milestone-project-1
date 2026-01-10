@@ -145,6 +145,15 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+.buy-now {
+  transition: transform .18s ease, box-shadow .18s ease;
+  will-change: transform;
+}
+.buy-now:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
 /*In page navigation pannel (used in Basics, Events, Heroes)*/
 .jump {
     text-align: center;
